@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'normalize.min.scss';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.divider {
+  margin: 25px auto 0 auto;
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+}
+
+@import 'sections/promo';
+@import 'sections/title';
+@import 'sections/buttons';
+@import 'sections/sidepanel';
+@import 'sections/resume';
+@import 'sections/contacts';
+@import 'sections/adaptive';

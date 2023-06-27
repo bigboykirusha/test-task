@@ -1,0 +1,35 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "postinstall": "gulp default"
+  },
+  "engines": {
+    "node": "14.5.0"
+  },
+  "author": "Kirill Sankevich",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "run-sequence": "^2.2.1",
+    "sass": "^1.63.6"
+  }
+}
