@@ -26,6 +26,7 @@
   &__section-title {
     text-align: center;
     position: relative;
+    margin-bottom: 20px !important;
     @include before_circle;
     &:before {
       left: 50%;

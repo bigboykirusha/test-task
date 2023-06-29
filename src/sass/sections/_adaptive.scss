@@ -117,14 +117,14 @@
 
 @media (max-width: 575px) {
   .container {
-    width: 300px;
-    margin: 0 auto;
+    width: calc(100% - 20px);
+    margin: 0 10px;
   }
 
   .title {
     font-size: 28px;
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 
     &_fz48 {
       font-size: 26px;
@@ -189,14 +189,14 @@
 
     &__wrapper {
       padding-top: 40px;
-      grid-template-columns: 300px;
+      grid-template-columns: calc(100vw - 30px);
       justify-content: center;
       row-gap: 40px;
     }
 
     &__item {
       &-head {
-        padding-top: 25px;
+        padding-top: 28px;
       }
     }
   }
@@ -213,11 +213,13 @@
       line-height: 15px;
     }
 
-    &__title {
-      text-align: center;
+    &__subtitle {
+      margin-bottom: 20px !important;
+    }
 
+    &__title {
       &::before {
-        left: 50%;
+        left: 18px;
         transform: translateX(-50%);
       }
     }

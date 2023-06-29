@@ -48,7 +48,7 @@
     }
 
     &:first-child img {
-      transform: rotate(90deg);
+      transform: rotate(90deg);  
     }
   }
 
@@ -113,6 +113,14 @@
     border: none;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color:#0d0d0d;
+    &:hover {
+      background-color: #d8900b;
+      text-decoration: none;
+      color: #000;
+    }
   }
 }
 

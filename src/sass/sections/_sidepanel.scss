@@ -29,4 +29,13 @@
       font-weight: 700;
     }
   }
+
+  &__link {
+    img {
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transform: scale(1.6) rotate(90deg);
+      }
+    }
+  }
 }

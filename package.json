@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/start.js",
     "postinstall": "gulp default"
   },
   "engines": {

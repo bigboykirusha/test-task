@@ -6,7 +6,7 @@
 
   &__title {
     width: 535px;
-    margin-top: 10px;
+    margin-top: 9px;
   }
 
   &__subtitle {
@@ -99,6 +99,14 @@
     top: 25px;
     right: 25px;
     cursor: pointer;
+
+    svg {
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
   }
 
   &__list {
@@ -121,7 +129,7 @@
       left: -35px;
       width: 15px;
       height: 15px;
-      border: 1px solid #000000;
+      border: 2px solid #000000;
       border-radius: 100%;
       transition: all 0.3s;
     }
@@ -129,7 +137,8 @@
     &:hover {
       &::before {
         background-color: $second-color;
-        transform: scale(1.3);
+        transform: scale(1.35);
+        border: 1px solid #000000;
       }
     }
 
@@ -143,13 +152,20 @@
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 110px;
+    width: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     a {
       transform: rotate(90deg);
+
+      img {
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
     }
   }
 
